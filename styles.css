@@ -15,6 +15,18 @@
   padding: 24px;
 }
 
+.container-team {
+  border: 4px solid gray;
+  margin: 24px;
+  padding: 24px 24px 0px 24px;
+}
+
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .box {
   border: 4px solid gray;
   width: 100px;
@@ -32,4 +44,27 @@
   height: 50px;
 
   margin-left: 24px;
+}
+
+.team-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box-team {
+  border: 4px solid gray;
+  width: 30%;
+  height: 100px;
+  margin-bottom: 24px;
+}
+
+.title {
+    border: 2px solid gray;
+    width: 600px;
+    height: 50px;
+    margin-bottom: 24px;
+
+    display: flex;
+    justify-content: center;
 }
